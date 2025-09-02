@@ -1,12 +1,29 @@
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-result = a + b
+def multiply() :
+    
+    a = int(input("Enter the first number: "))
+    b = int(input("Enter the second number: "))
+    result = a * b
+    print (result)
 
-if (a == b) :
-    print("Les deux nombres sont egaux")
-if (a > b) :
-    print("Le premier nombre est plus grand que le second")
-if (a < b) :
-    print("Le premier nombre est plus petit que le second")
+def compare() :
+    
+    a = int(input("Enter the first number: "))
+    b = int(input("Enter the second number: "))
 
-print (result)
+    if (a == b) :
+        print("Les deux nombres sont egaux\0")
+    if (a > b) :
+        print("Le premier nombre est plus grand que le second\0")
+    if (a < b) :
+        print("Le premier nombre est plus petit que le second\0")
+
+def counting() :
+    
+    x = range(1, int(input("Stop : ")), 2)
+
+    for n in x :
+        print(n, end= ', ')
+
+#multiply()
+#compare()
+#counting()
