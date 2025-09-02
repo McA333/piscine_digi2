@@ -32,9 +32,26 @@ def ask_user() :
         print ("Vous avez entre : ", word)
         word = str(input())
 
+def safe_divide() :
+
+
+    try :
+        a = float(input())
+        b = float(input())
+        res = a / b
+        print (res)
+    except (ZeroDivisionError, ValueError) :
+        print("Impossible de diviser par zero")
+        print("None")
+        return None
+
+
+
+
 
 
 #multiply()
 #compare()
 #counting()
 #ask_user()
+#safe_divide()
