@@ -3,7 +3,7 @@ b = int(input("Enter the second number: "))
 result = a + b
 
 if (a == b) :
-    print("Les deux nombres sont égaux")
+    print("Les deux nombres sont egaux")
 if (a > b) :
     print("Le premier nombre est plus grand que le second")
 if (a < b) :
