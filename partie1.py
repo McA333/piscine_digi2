@@ -45,7 +45,10 @@ def safe_divide() :
         print("None")
         return None
 
+def display_square(size, char) :
 
+    for n in range(size) :
+        print (char * size)
 
 
 
@@ -55,3 +58,4 @@ def safe_divide() :
 #counting()
 #ask_user()
 #safe_divide()
+display_square(int(input("Enter size : ")), input("Enter char : "))
