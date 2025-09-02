@@ -1,14 +1,14 @@
-def multiply() :
+def multiply(a, b) :
     
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
+    a = int(a)
+    b = int(b)
     result = a * b
     print (result)
 
-def compare() :
+def compare(a, b) :
     
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
+    a = int(a)
+    b = int(b)
 
     if (a == b) :
         print("Les deux nombres sont egaux\0")
@@ -17,11 +17,11 @@ def compare() :
     if (a < b) :
         print("Le premier nombre est plus petit que le second\0")
 
-def counting() :
+def counting(x) :
     
-    x = range(1, int(input("Stop : ")), 2)
+    x = int(x)
 
-    for n in x :
+    for n in range(1, x, 2) :
         print(n, end= ', ')
 
 def ask_user() :
@@ -46,15 +46,15 @@ def safe_divide(a, b) :
 
 def display_square(size, char) :
 
-    for n in range(size) :
+    for _ in range(size) :
         print (char * size)
 
 
 
 
-#multiply()
-#compare()
-#counting()
+#multiply(input("Entrer le premier nombre: "), input("Entrer le deuxieme nombre: "))
+#compare(input("Entrer le premier nombre: "), input("Entrer le deuxeme nombre: "))
+#counting(input("Stop : "))
 #ask_user()
 #safe_divide(input(), input())
-#display_square(int(input("Enter size : ")), input("Enter char : "))
+#display_square(int(input("Entrer la taille du carré : ")), input("Entrer le caractere : "))
