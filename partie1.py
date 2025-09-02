@@ -32,12 +32,11 @@ def ask_user() :
         print ("Vous avez entre : ", word)
         word = str(input())
 
-def safe_divide() :
-
+def safe_divide(a, b) :
 
     try :
-        a = float(input())
-        b = float(input())
+        a = float(a)
+        b = float(b)
         res = a / b
         print (res)
     except (ZeroDivisionError, ValueError) :
@@ -57,5 +56,5 @@ def display_square(size, char) :
 #compare()
 #counting()
 #ask_user()
-#safe_divide()
+#safe_divide(input(), input())
 #display_square(int(input("Enter size : ")), input("Enter char : "))
