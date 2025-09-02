@@ -58,4 +58,4 @@ def display_square(size, char) :
 #counting()
 #ask_user()
 #safe_divide()
-display_square(int(input("Enter size : ")), input("Enter char : "))
+#display_square(int(input("Enter size : ")), input("Enter char : "))
