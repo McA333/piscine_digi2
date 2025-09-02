@@ -24,6 +24,17 @@ def counting() :
     for n in x :
         print(n, end= ', ')
 
+def ask_user() :
+
+    word = str(input())
+
+    while not word  == "exit":
+        print ("Vous avez entre : ", word)
+        word = str(input())
+
+
+
 #multiply()
 #compare()
 #counting()
+#ask_user()
