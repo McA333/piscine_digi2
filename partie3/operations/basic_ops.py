@@ -12,6 +12,4 @@ def subtract(a, b) :
 
     result = a - b
     print (result)
-
-#add(input(), input())
-#subtract(input(), input())
+    

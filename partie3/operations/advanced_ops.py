@@ -14,8 +14,6 @@ def safe_divide(a, b) :
         print (res)
     except (ZeroDivisionError, ValueError) :
         print("Impossible de diviser par zero")
-        #print("None")
-        return None
 
-#multiply(input(), input())
-#safe_divide(input(), input())
+        return None
+    
